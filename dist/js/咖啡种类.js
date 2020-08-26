@@ -1,0 +1,1 @@
+var comInfo=document.getElementsByClassName("com-info"),companys=document.getElementsByClassName("company-con");for(var i in comInfo)comInfo[i].onclick=function(){var c=this.getAttribute("lcl");for(var o in companys)companys[o].className="company-con";companys[c].className="company-con active"};
